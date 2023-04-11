@@ -27,11 +27,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin: 20px;
 }
 
-.image img {
+.image {
+  margin: 15px;
+}
+
+.image img{
   width: 160px;
   height: 160px;
   margin-bottom: 10px;
@@ -42,6 +44,9 @@ h1 {
   border: 1px solid;
   border-radius: 10px;
   background-color: rgba(28, 28, 28, 0.793);
+}
+
+.image:hover {
   opacity: 0.5;
 }
 
