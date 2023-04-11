@@ -49,12 +49,7 @@ h1 {
 .image img{
   margin-bottom: 10px;
   border-radius: 10px;
-  
 }
-
-/* .image img:hover {
-  opacity: 1;
-} */
 
 .image legend {
   display: flex;
@@ -63,6 +58,8 @@ h1 {
 }
 
 .image-plus {
+  width: 160px;
+  height: 160px;
   padding: 50px;
   background-color: rgba(28, 28, 28, 0.793); 
 }
